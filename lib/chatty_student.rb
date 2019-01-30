@@ -10,7 +10,7 @@ class ChattyStudent < Student
   def raise_hand
     super
     phrase =  "Pick me!"
-    10 times.do
+    10 times.do |phrase|
   end 
   
 end
