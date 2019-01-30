@@ -11,6 +11,7 @@ class ChattyStudent < Student
     super
     phrase =  "Pick me!"
     10 times.do |phrase|
+    end
   end 
   
 end
